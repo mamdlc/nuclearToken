@@ -1,0 +1,19 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch Program",
+            "program": "${workspaceFolder}/start.js",
+            "env": {
+                "FORGE_CLIENT_ID": "v2HmU41y071NBMxEYy3UmnL33LNqroo0",
+                "FORGE_CLIENT_SECRET": "R6Gt6Kn10j9O9nGz",
+                "FORGE_CALLBACK_URL": "https://nucleartoken.herokuapp.com/api/forge/callback/oauth"
+            }
+        }
+    ]
+}
